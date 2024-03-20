@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         counterLabel.text = "0"
     }
     
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        increaseCount()
+    }
+    
     func increaseCount() {
         counter += 1
         counterLabel.text = String(counter)
