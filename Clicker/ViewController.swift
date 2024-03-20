@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     }
     
     func increaseCount() {
-        
+        counter += 1
+        counterLabel.text = String(counter)
     }
 
 
