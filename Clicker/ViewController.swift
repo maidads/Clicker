@@ -11,12 +11,18 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var counterLabel: UILabel!
     
+    var counter : Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //print("Hello")
         
         counterLabel.text = "0"
+    }
+    
+    func increaseCount() {
+        
     }
 
 
