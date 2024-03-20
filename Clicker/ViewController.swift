@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         //print("Hello")
         
-        counterLabel.text = "Maida"
+        counterLabel.text = "0"
     }
 
 
